@@ -4,13 +4,12 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev:client": "vite",
-    "dev:server": "node server/index.js",
-    "dev": "concurrently -k -n CLIENT,SERVER -c blue,green \"npm run dev:client\" \"npm run dev:server\"",
-    "start": "concurrently -k -n CLIENT,SERVER -c blue,green \"npm run dev:client\" \"npm run dev:server\"",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+  "dev:client": "vite",
+  "dev:server": "node server/index.js",
+  "dev": "concurrently -k -n CLIENT,SERVER -c blue,green \"npm run dev:client\" \"npm run dev:server\"",
+  "start": "node server/index.js",
+  "build": "vite build"
+},
   "dependencies": {
     "express": "^4.19.2",
     "cors": "^2.8.5",
