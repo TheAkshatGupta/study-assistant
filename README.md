@@ -1,71 +1,180 @@
-# AI Study Assistant
+# 📚 Study Assistant
 
-AI-powered study assistant that converts notes into flashcards and quizzes using LLMs.
+An AI-powered study assistant that transforms notes or topics into interactive flashcards and quizzes using Google's Gemini API. Designed to help students learn faster through active recall and self-assessment.
 
-## Features
+## 🌐 Live Demo
 
-- Generate flashcards
-- Interactive quiz
-- Supports Gemini, Groq, OpenAI, OpenRouter, Anthropic and Ollama
-- Dark Mode
-- JSON validation with retry
+🔗 https://study-assistant-j10m.onrender.com/
 
-## Tech Stack
+---
+
+## ✨ Features
+
+- 📖 Generate AI-powered flashcards from notes or a topic
+- ❓ Create interactive multiple-choice quizzes
+- 🔄 Flip flashcards for active recall learning
+- 🌙 Light/Dark mode support
+- ⚡ Fast AI response generation using Gemini
+- 🛡️ JSON validation with automatic retry mechanism
+- 📱 Responsive UI for desktop and mobile
+- 🚨 Error handling for invalid AI responses
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+![Home](./screenshots/home.png)
+
+---
+
+### 📚 Flashcards
+
+![Flashcards](./screenshots/flashcards.png)
+
+---
+
+### 🔄 Flashcard Flip
+
+![Flashcard Flip](./screenshots/flashcard-flip.png)
+
+---
+
+### ❓ Quiz
+
+![Quiz](./screenshots/quiz.png)
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
 
 - React
 - Vite
-- Express
-- Node.js
-- Gemini API
+- CSS3
 
-## Installation
+### Backend
+
+- Node.js
+- Express.js
+
+### AI
+
+- Google Gemini API
+
+### Deployment
+
+- Render
+
+---
+
+## 📂 Project Structure
+
+```
+study-assistant/
+│
+├── src/
+│   ├── components/
+│   ├── api/
+│   ├── utils/
+│   ├── App.jsx
+│   └── index.css
+│
+├── server/
+│
+├── public/
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/study-assistant.git
+```
+
+Go to project folder
+
+```bash
+cd study-assistant
+```
+
+Install dependencies
 
 ```bash
 npm install
 ```
 
-Create `.env`
+Create a `.env` file
 
 ```env
 PROVIDER=gemini
-API_KEY=YOUR_API_KEY
+API_KEY=YOUR_GEMINI_API_KEY
+MODEL=gemini-2.5-flash
 ```
 
-Run
+Start development server
+
+```bash
+npm run dev
+```
+
+Start backend
 
 ```bash
 npm start
 ```
 
-Open
+---
 
-```
-http://localhost:5173
-```
+## 🧠 How It Works
 
-## AI Usage
+1. User enters notes or a topic.
+2. Notes are sent to the Gemini API.
+3. AI generates:
+   - Flashcards
+   - Quiz Questions
+4. The server validates the JSON response.
+5. Valid data is displayed as interactive flashcards and quizzes.
 
-This application sends user notes to an LLM (Gemini/Groq/OpenAI etc.) to generate structured flashcards and quizzes. Responses are validated against a predefined JSON schema before being displayed.
+---
 
-## Limitations
+## 🚀 Future Improvements
 
-- Requires an internet connection
-- Depends on third-party AI providers
-- AI responses may occasionally require regeneration
-- API key required
+- PDF Notes Upload
+- Export Flashcards as PDF
+- Save Study History
+- User Authentication
+- Progress Tracking
+- Spaced Repetition System
 
-## Time Spent
+---
 
-Approximately **8–10 hours**
+## ⚠️ Limitations
 
-## Screenshots
+- Internet connection required
+- Requires a Gemini API key
+- AI-generated content should be reviewed before studying
 
-(Add screenshots)
+---
 
-## Demo
+## 👨‍💻 Author
 
-(Add screen recording link)
+**Akshat Gupta**
 
-## Author
+GitHub: https://github.com/TheAkshatGupta
 
-Akshat Gupta
+LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
