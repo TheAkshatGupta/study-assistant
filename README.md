@@ -1,11 +1,11 @@
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-5-purple?logo=vite)
 ![Express](https://img.shields.io/badge/Express.js-black?logo=express)
-![Gemini](https://img.shields.io/badge/Google-Gemini-blue?logo=google)
+![Groq](https://img.shields.io/badge/Groq-Llama%203.1-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 # 📚 Study Assistant
 
-An AI-powered study assistant that transforms notes or topics into interactive flashcards and quizzes using Google's Gemini API. Designed to help students learn faster through active recall and self-assessment.
+An AI-powered study assistant that transforms notes or topics into interactive flashcards and quizzes using the Groq API powered by Meta Llama 3.1. Designed to help students learn faster through active recall and self-assessment.
 
 ## 🌐 Live Demo
 
@@ -19,7 +19,7 @@ An AI-powered study assistant that transforms notes or topics into interactive f
 - ❓ Create interactive multiple-choice quizzes
 - 🔄 Flip flashcards for active recall learning
 - 🌙 Light/Dark mode support
-- ⚡ Fast AI response generation using Gemini
+- ⚡ Fast AI response generation using Groq (Llama 3.1)
 - 🛡️ JSON validation with automatic retry mechanism
 - 📱 Responsive UI for desktop and mobile
 - 🚨 Error handling for invalid AI responses
@@ -27,8 +27,9 @@ An AI-powered study assistant that transforms notes or topics into interactive f
 ---
 ## 🤖 AI Usage
 
-AI tools were used during development for brainstorming, debugging, UI refinement, and documentation. All architecture decisions, implementation, integration, testing, and final code modifications were completed and verified by the author.
+## 🤖 AI Usage
 
+AI tools (ChatGPT and GitHub Copilot) were used during development for brainstorming, debugging, UI refinement, and documentation. The application uses the Groq API (Meta Llama 3.1) to generate structured flashcards and quizzes. All architecture decisions, implementation, integration, testing, and final code modifications were completed and verified by the author.
 ---
 
 ## 📸 Screenshots
@@ -72,7 +73,7 @@ AI tools were used during development for brainstorming, debugging, UI refinemen
 
 ### AI
 
-- Google Gemini API
+- Groq API (Meta Llama 3.1 Instant)
 
 ### Deployment
 
@@ -107,7 +108,7 @@ study-assistant/
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/study-assistant.git
+git clone https://github.com/TheAkshatGupta/study-assistant.git
 ```
 
 Go to project folder
@@ -125,9 +126,9 @@ npm install
 Create a `.env` file
 
 ```env
-PROVIDER=gemini
-API_KEY=YOUR_GEMINI_API_KEY
-MODEL=gemini-2.5-flash
+PROVIDER=groq
+API_KEY=YOUR_GROQ_API_KEY
+MODEL=llama-3.1-8b-instant
 ```
 
 Start development server
@@ -147,7 +148,7 @@ npm start
 ## 🧠 How It Works
 
 1. User enters notes or a topic.
-2. Notes are sent to the Gemini API.
+2. Notes are sent securely to the Groq API.
 3. AI generates:
    - Flashcards
    - Quiz Questions
@@ -170,7 +171,7 @@ npm start
 ## ⚠️ Limitations
 
 - Internet connection required
-- Requires a Gemini API key
+- Requires a Groq API key
 - AI-generated content should be reviewed before studying
 
 ---
