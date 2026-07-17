@@ -176,7 +176,7 @@ npm start
 
 GitHub: https://github.com/TheAkshatGupta
 
-LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN
+LinkedIn: https://www.linkedin.com/in/akshat-gupta-csds
 
 ---
 
