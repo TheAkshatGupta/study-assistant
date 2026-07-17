@@ -1,3 +1,8 @@
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-5-purple?logo=vite)
+![Express](https://img.shields.io/badge/Express.js-black?logo=express)
+![Gemini](https://img.shields.io/badge/Google-Gemini-blue?logo=google)
+![License](https://img.shields.io/badge/License-MIT-green)
 # 📚 Study Assistant
 
 An AI-powered study assistant that transforms notes or topics into interactive flashcards and quizzes using Google's Gemini API. Designed to help students learn faster through active recall and self-assessment.
