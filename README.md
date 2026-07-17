@@ -57,6 +57,11 @@ AI tools (ChatGPT and GitHub Copilot) were used during development for brainstor
 ![Quiz](./screenshots/quiz.png)
 
 ---
+## 🎥 Demo Video
+
+https://drive.google.com/file/d/1TAuT2x2vu_ormplBApVNHnmfykodaHYM/view?usp=drive_link
+
+---
 
 ## 🛠 Tech Stack
 
