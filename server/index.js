@@ -106,6 +106,9 @@ app.post("/api/generate", async (req, res) => {
 
     try {
       rawText = await callModelOnce(prompt);
+      console.log("\n================ RAW RESPONSE ================\n");
+console.log(rawText);
+console.log("\n==============================================\n");
     } catch (err) {
       if (err?.name === "AbortError") {
         return res.status(504).json({

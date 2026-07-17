@@ -62,7 +62,9 @@ export default function App() {
       <header className="app-header">
         <div>
           <h1>Study Assistant</h1>
-          <p className="subtitle">Turn notes into flashcards and a quiz</p>
+          <p className="subtitle">
+AI-powered study companion that transforms notes into interactive flashcards and quizzes.
+</p>
         </div>
         <button
           className="theme-toggle"
@@ -96,6 +98,37 @@ export default function App() {
           )}
         </section>
       </main>
+      <footer className="footer">
+  <p>
+    Made with ❤️ by <strong>Akshat Gupta</strong>
+  </p>
+
+  <div className="footer-links">
+    <a
+      href="https://github.com/TheAkshatGupta"
+      target="_blank"
+      rel="noreferrer"
+    >
+      GitHub
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/akshat-gupta-csds"
+      target="_blank"
+      rel="noreferrer"
+    >
+      LinkedIn
+    </a>
+
+    <a
+      href="https://x.com/The_AkshatG"
+      target="_blank"
+      rel="noreferrer"
+    >
+      X
+    </a>
+  </div>
+</footer>
     </div>
   );
 }
