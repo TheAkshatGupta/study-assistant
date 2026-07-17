@@ -25,6 +25,11 @@ An AI-powered study assistant that transforms notes or topics into interactive f
 - 🚨 Error handling for invalid AI responses
 
 ---
+## 🤖 AI Usage
+
+AI tools were used during development for brainstorming, debugging, UI refinement, and documentation. All architecture decisions, implementation, integration, testing, and final code modifications were completed and verified by the author.
+
+---
 
 ## 📸 Screenshots
 
